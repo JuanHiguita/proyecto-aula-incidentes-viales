@@ -1,5 +1,5 @@
 html, body {
-    height: 100%;  
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -7,6 +7,6 @@ html, body {
 #map {
     height: 600px;
     width: 100%;
-    background-color: grey;
+    background-color: red;
 }
 
