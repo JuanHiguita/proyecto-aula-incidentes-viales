@@ -1,27 +1,31 @@
 html{
     font-family: 'Roboto', sans-serif;
     font-size:16px;
-    background-color: whitesmoke;
+    background-color: white;
 }
 span{
     display:block;
-    width:35%; /*or whatever width you want the effect of <hr>*/
-    border-top:3px solid #FF6B4C;
+    width:45%; /*or whatever width you want the effect of <hr>*/
+    border-top:3px solid #ef4565;
     position: relative;
     top: -5em;
-    left: 37.5em;
+    left: 32.7em;
  }
 #title {
     margin-top: 2em;
     margin-bottom: 2.5em;
-    margin-left: 33.5%;
+    margin-left: 30%;
     margin-right: auto;
+    color: #094067;
 }
 
 #map {
-    margin:auto !important;
+    /*margin:auto !important;*/
     height: 500px;
-    width: 50%;
+    width: 100%;
     background-color: lightgray;
 }
 
+#form{
+    margin-left: 40px;
+}
