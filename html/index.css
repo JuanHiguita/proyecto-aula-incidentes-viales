@@ -1,12 +1,27 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    background-color: whitesmoke;
+}
+span{
+    display:block;
+    width:35%; /*or whatever width you want the effect of <hr>*/
+    border-top:3px solid #FF6B4C;
+    position: relative;
+    top: -5em;
+    left: 37.5em;
+ }
+#title {
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+    margin-left: 33.5%;
+    margin-right: auto;
 }
 
 #map {
-    height: 600px;
-    width: 100%;
-    background-color: red;
+    margin:auto !important;
+    height: 500px;
+    width: 50%;
+    background-color: lightgray;
 }
 

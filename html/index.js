@@ -5,7 +5,7 @@ function initMap(data) {
     var center = {lat: parseFloat(lat), lng: parseFloat(lng)};
     var map = new google.maps.Map(document.getElementById('map'), {
         center: center,
-        zoom: 9,
+        zoom: 12,
     });
     var infowindow =  new google.maps.InfoWindow({});
     var marker;
@@ -21,7 +21,7 @@ function initMap(data) {
         google.maps.event.addListener(marker, 'click', (function (marker) {
             return function () {
                 //infowindow.setContent(`Cluster: ${e['Kmeans_clusters']}<br>Barrio: ${e['Barrio']}<br>Comuna: ${e['Comuna']}<br>Direccion: ${e['Direccion_incidente']}<br>Gravedad: ${e['Gravedad_victima']}<br>Condicion: ${e['Condicion']}<br>Sexo: ${e['Sexo']}<br>Grupo Edad: ${e['Grupo_edad']}`);
-                infowindow.setContent(`Cluster: ${e['Kmeans_clusters']}<br>Gravedad: ${e['Gravedad_victima']}<br>Condicion: ${e['Condicion']}<br>Sexo: ${e['Sexo']}<br>Grupo Edad: ${e['Grupo_edad']}`);
+                infowindow.setContent(`Cluster: ${e['Kmeans_clusters']}<br>Gravedad: ${e['Gravedad_victima']}<br>Condicion: ${e['Condicion']}<br>Sexo: ${e['Sexo']}<br>Grupo Edad: ${e['Grupo_edad']}<br>Año: ${e['A\u00f1o']}`);
                 infowindow.open(map, marker);
             }
         })(marker));
