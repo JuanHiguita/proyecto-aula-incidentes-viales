@@ -1,3 +1,12 @@
+window.onload = function() {
+    Particles.init({
+        selector: '.background',
+        connectParticles: true,
+        maxParticles: 100,
+        color: '#C1C1C1',
+    });
+};
+
 function initMap(data) {
     var lat = data[0]['Latitud'].replace(',', '.');
     var lng = data[0]['Longitud'].replace(',', '.');

@@ -2,6 +2,21 @@ html{
     font-family: 'Roboto', sans-serif;
     font-size:16px;
     background-color: white;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: transparent !important;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 span{
     display:block;
@@ -10,13 +25,14 @@ span{
     position: relative;
     top: -5em;
     left: 32.7em;
- }
+}
 #title {
     margin-top: 2em;
     margin-bottom: 2.5em;
     margin-left: 30%;
     margin-right: auto;
     color: #094067;
+    background-color: white;
 }
 
 #map {
@@ -25,7 +41,9 @@ span{
     width: 100%;
     background-color: lightgray;
 }
-
+.container {
+    background-color:white
+}
 #form{
     margin-left: 40px;
 }
